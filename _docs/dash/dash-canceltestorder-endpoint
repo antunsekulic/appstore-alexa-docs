@@ -13,10 +13,9 @@ CancelTestOrder API allows developers to cancel test orders for one or all slots
 {:toc}
 
 ## Path
-
-```
-/testOrders/{SLOT_ID}
-```
+<pre>
+/testOrders/<span class="endpointParam">{SLOT_ID}</span>
+</pre>
 
 ## HTTP Method
 
