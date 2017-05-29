@@ -11,6 +11,8 @@ If you used the `is_test_device:true` flag in your LWA registration event, DRS w
 
 The Order Placed and Item Shipped SNS notifications will be sent. Trial purchases cannot be canceled and will not appear in the customer’s Amazon.com order history.
 
+A test order can be canceled by calling a [CancelTestOrder API][dash-canceltestorder-endpoint]. The standard order can be canceled by customers through their Amazon account.
+
 ### JavaScript Sample Request
 
 ```js
